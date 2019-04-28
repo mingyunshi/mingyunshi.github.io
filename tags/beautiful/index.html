@@ -74,21 +74,23 @@
 
 
 
+  <link rel="alternate" href="/atom.xml" title="个人博客" type="application/atom+xml">
 
 
 
 
 
-<meta name="description" content="初次见面的朋友初次见面，好久不见的朋友好久不见">
+
+<meta name="description" content="Java">
 <meta property="og:type" content="website">
 <meta property="og:title" content="个人博客">
-<meta property="og:url" content="http://yoursite.com/tags/beautiful/index.html">
+<meta property="og:url" content="https://mingyunshi.github.io/tags/beautiful/index.html">
 <meta property="og:site_name" content="个人博客">
-<meta property="og:description" content="初次见面的朋友初次见面，好久不见的朋友好久不见">
+<meta property="og:description" content="Java">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="个人博客">
-<meta name="twitter:description" content="初次见面的朋友初次见面，好久不见的朋友好久不见">
+<meta name="twitter:description" content="Java">
 
 
 
@@ -107,9 +109,9 @@
       author: '博主'
     },
     algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
+      applicationID: 'IRQO51B62V',
+      apiKey: '016719faa454c958de98d9aa6af0899f',
+      indexName: 'Blog',
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
@@ -118,7 +120,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/beautiful/">
+  <link rel="canonical" href="https://mingyunshi.github.io/tags/beautiful/">
 
 
 
@@ -159,7 +161,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">初次见面的朋友初次见面，好久不见的朋友好久不见</p>
       
   </div>
 
@@ -229,16 +231,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-search">
-          <a href="/search" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>
-            
-            搜索
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-commonweal">
           <a href="/404/" rel="section">
             
@@ -260,9 +252,47 @@
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
   
 </nav>
 
@@ -359,7 +389,7 @@
               <img class="site-author-image" itemprop="image" src="/images/L.jpg" alt="罗夏L">
             
               <p class="site-author-name" itemprop="name">罗夏L</p>
-              <p class="site-description motion-element" itemprop="description">初次见面的朋友初次见面，好久不见的朋友好久不见</p>
+              <p class="site-description motion-element" itemprop="description">Java</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -391,6 +421,13 @@
           </nav>
 
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
           
 
@@ -420,7 +457,7 @@
     <footer id="footer" class="footer">
       <div class="footer-inner">
         
-<div class="copyright">&copy; <span itemprop="copyrightYear">2019-04-28</span>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019-04-29</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -599,6 +636,19 @@
   
 
 
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.4"></script>
 
 
 
