@@ -5,9 +5,9 @@
   <subtitle>初次见面的朋友初次见面，好久不见的朋友好久不见</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://mingyunshi.github.io/"/>
+  <link href="http://blog.myshjy.com/"/>
   <updated>2019-04-28T14:16:03.642Z</updated>
-  <id>https://mingyunshi.github.io/</id>
+  <id>http://blog.myshjy.com/</id>
   
   <author>
     <name>罗夏L</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://mingyunshi.github.io/2019/04/28/hello-world/"/>
-    <id>https://mingyunshi.github.io/2019/04/28/hello-world/</id>
+    <link href="http://blog.myshjy.com/2019/04/28/hello-world/"/>
+    <id>http://blog.myshjy.com/2019/04/28/hello-world/</id>
     <published>2019-04-28T08:01:35.120Z</published>
     <updated>2019-04-28T14:16:03.642Z</updated>
     
@@ -35,11 +35,11 @@
     </summary>
     
     
-      <category term="test" scheme="https://mingyunshi.github.io/tags/test/"/>
+      <category term="test" scheme="http://blog.myshjy.com/tags/test/"/>
     
-      <category term="new world" scheme="https://mingyunshi.github.io/tags/new-world/"/>
+      <category term="new world" scheme="http://blog.myshjy.com/tags/new-world/"/>
     
-      <category term="beautiful" scheme="https://mingyunshi.github.io/tags/beautiful/"/>
+      <category term="beautiful" scheme="http://blog.myshjy.com/tags/beautiful/"/>
     
   </entry>
   
